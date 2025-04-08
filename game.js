@@ -22,6 +22,7 @@ class Game {
                 rollIndex += 2; // Move to the next frame
             }
         }
+        return totalScore;
     }
 
     // Helper method to check if a roll is a strike
@@ -48,6 +49,9 @@ class Game {
     sumOfPinsInFrame(rollIndex) {
         return this.rolls[rollIndex] + this.rolls[rollIndex + 1];
     }
+
 }
+
+module.exports = Game;
 
 
