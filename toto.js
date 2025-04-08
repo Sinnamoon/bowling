@@ -13,12 +13,12 @@ const anotherGame = new Game();
 anotherGame.roll(5);
 anotherGame.roll(5); // Spare
 anotherGame.roll(3);
-anotherGame.roll(0);
+anotherGame.roll(8);
+anotherGame.roll(7);
+anotherGame.roll(2);
+anotherGame.roll(10); // Strike
+anotherGame.roll(3);
+anotherGame.roll(4);
+anotherGame.roll(2);
 
-anotherGame.roll(0);anotherGame.roll(0);anotherGame.roll(0);
-anotherGame.roll(0);anotherGame.roll(0);anotherGame.roll(0);
-anotherGame.roll(0);anotherGame.roll(0);anotherGame.roll(0);
-anotherGame.roll(0);anotherGame.roll(0);anotherGame.roll(0);
-anotherGame.roll(0);anotherGame.roll(0);anotherGame.roll(0);
-
-console.log(anotherGame.score()); // Output: 16 (10 + bonus of next roll (3) + remaining rolls)
+console.log(anotherGame.score()); // Output: Correct total score based on all rolls
